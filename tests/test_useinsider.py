@@ -5,7 +5,7 @@ from pages.homepage import *
 from pages.careers_page import *
 from pages.qa_page import *
 from pages.application_page import *
-from constants import homepage_constants, careers_page_constants, qa_page_constants, application_page_constants
+from constants import homepage_constants, careers_page_constants
 
 @pytest.mark.usefixtures("setup")
 class TestInsider:
