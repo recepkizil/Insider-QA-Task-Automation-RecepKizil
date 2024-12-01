@@ -19,7 +19,7 @@ class TestInsider:
         #tüm çerezleri kabul et
         homepage.accept_all_cookies()
 
-        #Anasayfanın açıldığını doğrula(ekran görüntüsü çekme kodunu ekle her yere)
+        #Anasayfanın açıldığını doğrula
         assert self.driver.current_url == "https://useinsider.com/", f"Expected 'https://useinsider.com/', but found '{self.driver.current_url}'"
         basepage.take_screenshot("screenshots/anasayfanin_acildigi_dogrulanmistir.png")
         
